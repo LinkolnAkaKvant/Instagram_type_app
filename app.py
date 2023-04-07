@@ -6,6 +6,8 @@ from bookmarks.views import bookmarks_blueprint
 
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
+app.config.from_pyfile("default_config.py")
+app.config.from_envvar("APP_SETTINGS", silent=True)
 
 app.register_blueprint(get_blueprint)
 
