@@ -1,6 +1,6 @@
 from flask import Flask, render_template
-from get.views import get_blueprint
 from api.views import api_blueprint
+from get.views import get_blueprint
 from bookmarks.views import bookmarks_blueprint
 
 

@@ -154,7 +154,7 @@ class Comments:
         return self.content
 
     def get_comments_by_post_id(self, post_id, all_posts_id):
-        """Выводит коментарии к посту по его id
+        """Выводит комментарии к посту по его id
         если поста с таким id нет выводит ошибку"""
         if post_id in all_posts_id:
             content = self.get_comments_all()
