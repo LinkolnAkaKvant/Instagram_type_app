@@ -392,3 +392,10 @@
 127.0.0.1 - - [07/Apr/2023 22:14:24] "[36mGET /static/assets/css/styles.min.css HTTP/1.1[0m" 304 -
 127.0.0.1 - - [07/Apr/2023 22:14:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
 127.0.0.1 - - [07/Apr/2023 22:14:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [08/Apr/2023 02:17:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2023 02:17:36] "[36mGET /static/assets/css/styles.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [08/Apr/2023 02:17:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [08/Apr/2023 02:17:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
