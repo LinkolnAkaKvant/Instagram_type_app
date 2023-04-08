@@ -6,7 +6,7 @@ services:
       context: .
     image: vkarpovich/skypro_hw_26
     ports:
-      - 8000:80
+      - 25000:25000
   pg:
     image: postgres:latest
     environment:

@@ -7,6 +7,8 @@ services:
       - 25000:25000
   pg:
     image: postgres:latest
+    ports:
+      - 5436:5432
     environment:
       POSTGRES_USER: $DB_USER
       POSTGRES_PASSWORD: $DB_PASSWORD
