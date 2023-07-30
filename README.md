@@ -9,6 +9,7 @@ instagram app. Created with Flask. Available to view posts, search and add to fa
 ___
 
 ## Stack:
+
 Python - 3.10 +
 
 Flask - 2.2.2
@@ -24,10 +25,10 @@ Jinja - 3.1.2
 ___
 
 ## Запуск проекта | Launch of the project
-Клонируйте репозиторий https://github.com/LinkolnAkaKvant/Instagram_type_app.git
-Установите зависимости командой pip install -r requirements.txt
-Запустите приложение Flask flask run
-Переходим по адресу http://127.0.0.1:5000
+ - Клонируйте репозиторий https://github.com/LinkolnAkaKvant/Instagram_type_app.git
+ - Установите зависимости командой pip install -r requirements.txt
+ - Запустите приложение Flask flask run
+ - Переходим по адресу http://127.0.0.1:5000
 
 ___
 
