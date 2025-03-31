@@ -3,7 +3,7 @@ name: Build and Deploy Workflow
 on:
   push:
     branches:
-      - main  # Можно указать ветку, на которую реагирует push
+      - master  # Можно указать ветку, на которую реагирует push
 
 jobs:
   build_and_push:
